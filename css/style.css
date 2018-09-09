@@ -55,6 +55,46 @@ html {
     background-size: 100%;
 }
 
+#chatroom-button{
+    background-image: url("../images/chatroom.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+#chatroom-button p{
+    color: white;
+}
+
+#map-button p{
+    color: white;
+}
+
+#profile-button p{
+    color: white;
+}
+
+#map-button{
+    background-image: url("../images/surrounding.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+#overview-button{
+    background-image: url("../images/homepage-background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+#profile-button{
+    background-image: url("../images/profile.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
 #homepage-header{
     color: white;
     text-align: center;
