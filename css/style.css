@@ -1,0 +1,195 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#map-button {
+    background: lime;
+}
+
+#overview-button {
+    background: blue;
+    color: white;
+}
+
+#help-button {
+
+    height: 25vw;
+    width: 25vw;
+
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+
+    /* minus half of height and width */
+    margin-top: -12.5vw; 
+    margin-left: -12.5vw;
+
+    /* this button is round, and at the center. It's special */
+    background: red;
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    
+
+    font-size: 4vh;
+    font-weight: bold;
+
+    cursor: pointer;
+
+}
+
+
+#help-button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#homepage{
+    background-image: url("../images/homepage-background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+#homepage-header{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#start-btn{
+    background-color: forestgreen;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#start-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+#profilepage, #surroundingpage, #overviewpage{
+    background-image: url("../images/homepage-background.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 100%;
+}
+
+#profile{
+    background-color: white;
+    padding: 10px 10px 10px 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+    height: 200px;
+    width: 300px;
+}
+
+#surrounding{
+    background-color: white;
+    padding: 10px 10px 10px 30px;
+    margin: 10px 0px 10px 0px;
+}
+
+#surrounding-map {
+    height: 70vh;
+    width: 80vw;
+}
+    
+
+div.row {
+
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+
+}
+
+
+div.box-buttons {
+    font-size: 120%;
+    text-align: center;
+    padding: 10%;
+    vertical-align: center; 
+    width: 100%;
+    cursor: pointer;
+}
+
+
+div.box-buttons:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+a.box-buttons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 5%;
+    vertical-align: center; 
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+a.box-buttons div p {
+    font-size: 4vh;
+}
+
+
+a.box-buttons:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+a.box-buttons img {
+    width: 10vw;
+}
+
+.formsheet{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.topnav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
